@@ -1,4 +1,4 @@
-etpack Compose: Drag and Drop Demo App (2024)
+Jetpack Compose: Drag and Drop Demo App (2024)
 
 This repository demonstrates a Drag and Drop feature in Jetpack Compose, enabling users to drag a text item and drop it into a colored box. This simple yet effective demo showcases how to use modern Jetpack Compose APIs (2024 updates) to create intuitive and interactive user experiences.
 
