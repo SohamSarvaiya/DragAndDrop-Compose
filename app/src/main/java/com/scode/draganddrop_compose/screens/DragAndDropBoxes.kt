@@ -1,4 +1,4 @@
-package com.scode.draganddrop_compose
+package com.scode.draganddrop_compose.screens
 
 import android.content.ClipData
 import android.content.ClipDescription
@@ -37,10 +37,7 @@ import kotlin.random.Random
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun DragAndDropBoxes(modifier: Modifier = Modifier) {
-    Column(
-        modifier = modifier
-            .fillMaxSize()
-    ) {
+    Column(modifier = modifier.fillMaxSize()) {
         val boxCount = 5
         var dragBoxIndex by remember {
             mutableIntStateOf(0)

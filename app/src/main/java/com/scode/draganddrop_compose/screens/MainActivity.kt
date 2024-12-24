@@ -1,4 +1,4 @@
-package com.scode.draganddrop_compose
+package com.scode.draganddrop_compose.screens
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -17,10 +17,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             DragAndDropComposeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    DragAndDropBoxes(
-                        modifier = Modifier
-                            .padding(innerPadding)
-                    )
+                    DragAndDropBoxes(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
